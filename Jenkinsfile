@@ -14,7 +14,7 @@ node{
     
     stage('Push Docker Image to HUB')
     {
-        sh 'sudo docker push karthipreethi/eshwar@123'
+        sh 'sudo docker push karthipreethi/web_app'
     }
     
 }
